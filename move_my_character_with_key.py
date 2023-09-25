@@ -58,13 +58,12 @@ while running:
 
     if x < 0: # x축 아래로 이동하려 할 때 0이 유지되도록 함
         x = 0
-    elif x > TUK_WIDTH: # x축 위로 이동하려 할 때 TUK_WIDT이 유지되도록 함
+    elif x > TUK_WIDTH: # x축 위로 이동하려 할 때 TUK_WIDT값이 유지되도록 함
         x = TUK_WIDTH
     if y < 0: # y축 아래로 이동하려 할 때 0이 유지되도록 함
         y = 0
-    elif y > TUK_HEIGHT: # x축 아래로 이동하려 할 때 TUK_HEIGHT이 유지되도록 함
+    elif y > TUK_HEIGHT: # x축 아래로 이동하려 할 때 TUK_HEIGHT값이 유지되도록 함
         y = TUK_HEIGHT
-
 
     update_canvas()
     handle_events()
